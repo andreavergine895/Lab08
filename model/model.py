@@ -40,9 +40,6 @@ class Model:
             risultati.append((impianto.nome, media))
         return risultati
 
-
-
-
     def get_sequenza_ottima(self, mese:int):
         """
         Calcola la sequenza ottimale di interventi nei primi 7 giorni
